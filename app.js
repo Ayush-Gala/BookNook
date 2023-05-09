@@ -22,9 +22,9 @@ app.get('/login', (req, res) => {
 
 app.post('/submit', (req, res) => {
     //write mongo logic
-    const data = req.body.comment;
-    commment.create({text: data});
-    console.log(req.body);
+    // const data = req.body.comment;
+    // commment.create({text: data});
+    // console.log(req.body);
     res.json({ success: true, message: 'Comment submitted successfully' });
     // res.sendFile(__dirname + '/client/index.html');
 });

@@ -221,6 +221,7 @@ section .main .main_img img{
     padding: 5px;
     border: 1px solid #919191;
     margin: auto 20px;
+    position: relative;
 }
 
 .featured_boks .featured_book_box .featured_book_card:hover{
@@ -260,6 +261,10 @@ section .main .main_img img{
     border: 2px solid #089da1;
     text-decoration: none;
     color: #000;
+    align-items: center;
+    position: absolute;
+    bottom: 20px;
+    right: 25%;
 }
 
 ::-webkit-scrollbar{
